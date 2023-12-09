@@ -1,0 +1,43 @@
+body{
+    background-color: hsl(212, 45%, 89%);
+}
+
+#QR-background{
+    display: block;
+    background-color: white;
+    margin: 0 auto;
+    padding: 15px 8px;
+    width: 310px;
+    height: 490px;
+    border-radius: 18px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+}
+
+#QR{
+    display: block;
+    margin: 0 auto;
+    width: 290px;
+    border-radius: 10px;
+}
+
+.text{
+    text-align: center;
+    font-size: 15px;
+    padding: 10px 25px 0 25px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.text > h2{
+    margin-bottom: 20px;
+    font-weight: 700;
+
+}
+
+.text > p{
+    color: grey;
+    font-weight: 400;
+}
